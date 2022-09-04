@@ -1,6 +1,6 @@
 <?php
 
-namespace TimmYCode\Config;
+namespace TimmYCode\Config; 
 
 use TimmYCode\Punishment\Methods\Ban;
 use TimmYCode\Punishment\Methods\Kick;
