@@ -22,7 +22,7 @@ class WatchEventListener implements Listener
 
 		self::$spyOnePlayerList += [$event->getPlayer()->getXuid() => $event->getPlayer()];
 		self::$spyOnePlayerModuleList[] = $this->moduleBase;
-		$event->getPlayer()->sendMessage(SpyOne::PREFIX . "§3Please do not use hacked clients or texture packs such as §gXray §3or §gFullBright§3!");
+		$event->getPlayer()->sendMessage(SpyOne::PREFIX . "§3Remember to not hack or you will be banned!");
 	}
 
 	public function onLeave(PlayerQuitEvent $event) {
